@@ -1,0 +1,28 @@
+# Python cache and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.env
+.env.*
+
+# Private data
+data/
+new_folds_555/
+*_folds*/
+*_dataset*/
+*_datasets*/
+
+# Training outputs and model weights
+runs/
+output*/
+*.pt
+*.pth
+*.ckpt
+
+# Editor and OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
